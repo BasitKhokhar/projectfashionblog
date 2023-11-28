@@ -60,11 +60,15 @@ html{
     html{
         font-size: 40%;
     }
+    .grid-1{
+        padding-left: 0 !important;
+    }
     .grid-1 .right-side{
         width: 80% !important;
         margin-left:10%;
         margin-right: 10%;
     }
+
 }
 @media only screen and (max-width:600px) {
     html{
@@ -200,9 +204,6 @@ body a{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    /* display: grid; */
-    /* grid-template-rows: auto; */
-    /* grid-template-columns: 65% 30%; */
     border: none;
     gap: 4.0rem;
     background-color: #f1f1f1;
@@ -222,6 +223,7 @@ body a{
     border: none;
     background-color: white;
     padding: 2.0rem 2.0rem;
+    box-shadow: 0 0 1rem 1rem rgb(225, 225, 225);
 }
 .left-side .left-box1 .headiin-4{
     text-align: center;
